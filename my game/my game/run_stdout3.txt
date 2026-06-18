@@ -1,0 +1,683 @@
+INFO: Initializing raylib 5.5
+INFO: Platform backend: DESKTOP (GLFW)
+INFO: Supported raylib modules:
+INFO:     > rcore:..... loaded (mandatory)
+INFO:     > rlgl:...... loaded (mandatory)
+INFO:     > rshapes:... loaded (optional)
+INFO:     > rtextures:. loaded (optional)
+INFO:     > rtext:..... loaded (optional)
+INFO:     > rmodels:... loaded (optional)
+INFO:     > raudio:.... loaded (optional)
+INFO: DISPLAY: Device initialized successfully
+INFO:     > Display size: 1920 x 1080
+INFO:     > Screen size:  900 x 860
+INFO:     > Render size:  900 x 860
+INFO:     > Viewport offsets: 0, 0
+INFO: GLAD: OpenGL extensions loaded successfully
+INFO: GL: Supported extensions count: 254
+INFO: GL: OpenGL device information:
+INFO:     > Vendor:   ATI Technologies Inc.
+INFO:     > Renderer: AMD Radeon(TM) Graphics
+INFO:     > Version:  3.3.0 Core Profile Context 22.20.42.221019
+INFO:     > GLSL:     4.60
+INFO: GL: VAO extension detected, VAO functions loaded successfully
+INFO: GL: NPOT textures extension detected, full NPOT textures supported
+INFO: GL: DXT compressed textures supported
+INFO: GL: ETC2/EAC compressed textures supported
+INFO: PLATFORM: DESKTOP (GLFW - Win32): Initialized successfully
+INFO: TEXTURE: [ID 1] Texture loaded successfully (1x1 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 1] Default texture loaded successfully
+INFO: SHADER: [ID 1] Vertex shader compiled successfully
+INFO: SHADER: [ID 2] Fragment shader compiled successfully
+INFO: SHADER: [ID 3] Program shader loaded successfully
+INFO: SHADER: [ID 3] Default shader loaded successfully
+INFO: RLGL: Render batch vertex buffers loaded successfully in RAM (CPU)
+INFO: RLGL: Render batch vertex buffers loaded successfully in VRAM (GPU)
+INFO: RLGL: Default OpenGL state initialized successfully
+INFO: TEXTURE: [ID 2] Texture loaded successfully (128x128 | GRAY_ALPHA | 1 mipmaps)
+INFO: FONT: Default font loaded successfully (224 glyphs)
+INFO: SYSTEM: Working Directory: C:\Users\JOHN EFRAIM PASTRANA\Downloads\my game\my game
+INFO: AUDIO: Device initialized successfully
+INFO:     > Backend:       miniaudio | WASAPI
+INFO:     > Format:        32-bit IEEE Floating Point -> 32-bit IEEE Floating Point
+INFO:     > Channels:      2 -> 8
+INFO:     > Sample rate:   48000 -> 48000
+INFO:     > Periods size:  1440
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Font/monogram.ttf] File loaded successfully
+INFO: TEXTURE: [ID 3] Texture loaded successfully (512x512 | GRAY_ALPHA | 1 mipmaps)
+INFO: FONT: Data loaded successfully (64 pixel size | 95 glyphs)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/heart.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (100x100 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 4] Texture loaded successfully (100x100 | R8G8B8A8 | 1 mipmaps)
+INFO: TIMER: Target time per frame: 16.667 milliseconds
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Font/monogram.ttf] File loaded successfully
+INFO: TEXTURE: [ID 5] Texture loaded successfully (512x512 | GRAY_ALPHA | 1 mipmaps)
+INFO: FONT: Data loaded successfully (64 pixel size | 95 glyphs)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/select.wav] File loaded successfully
+INFO: WAVE: Data loaded successfully (44100 Hz, 16 bit, 1 channels)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/cat.gif] File loaded successfully
+INFO: TEXTURE: [ID 6] Texture loaded successfully (473x163 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/cat.gif (8 frames) - VRAM saved: 2108 KB
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/MAIN MENU.gif] File loaded successfully
+INFO: TEXTURE: [ID 7] Texture loaded successfully (900x860 | R4G4B4A4 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/MAIN MENU.gif (120 frames) - VRAM saved: 179894 KB
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/blop cat.gif] File loaded successfully
+INFO: TEXTURE: [ID 8] Texture loaded successfully (94x101 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/blop cat.gif (2 frames) - VRAM saved: 37 KB
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/pixilart-drawing.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (100x100 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 9] Texture loaded successfully (100x100 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/Palkia.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (519x559 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 10] Texture loaded successfully (519x559 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/DIALGA.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (1024x1024 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 11] Texture loaded successfully (1024x1024 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/mewtwo.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (835x1024 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 12] Texture loaded successfully (835x1024 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/green ninja.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 13] Texture loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/players characer 4.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (682x1024 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 14] Texture loaded successfully (682x1024 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/pixilart-drawing.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (100x100 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 15] Texture loaded successfully (100x100 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/laser.ogg] File loaded successfully
+INFO: WAVE: Data loaded successfully (44100 Hz, 16 bit, 2 channels)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/mystery.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (58x25 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 18] Texture loaded successfully (58x25 | R8G8B8A8 | 1 mipmaps)
+INFO: STREAM: Initialized successfully (44100 Hz, 16 bit, Stereo)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/music.ogg] Music file loaded successfully
+INFO:     > Sample rate:   44100 Hz
+INFO:     > Sample size:   16 bits
+INFO:     > Channels:      2 (Stereo)
+INFO:     > Total frames:  3532060
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/explosion.ogg] File loaded successfully
+INFO: WAVE: Data loaded successfully (44100 Hz, 16 bit, 1 channels)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/select.wav] File loaded successfully
+INFO: WAVE: Data loaded successfully (44100 Hz, 16 bit, 1 channels)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/laser.ogg] File loaded successfully
+INFO: WAVE: Data loaded successfully (44100 Hz, 16 bit, 2 channels)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/laser.ogg] File loaded successfully
+INFO: WAVE: Data loaded successfully (44100 Hz, 16 bit, 2 channels)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/select.wav] File loaded successfully
+INFO: WAVE: Data loaded successfully (44100 Hz, 16 bit, 1 channels)
+WARNING: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/swoosh.ogg] Failed to open file
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/laser.ogg] File loaded successfully
+INFO: WAVE: Data loaded successfully (44100 Hz, 16 bit, 2 channels)
+WARNING: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/mewtwo_activate.wav] Failed to open file
+WARNING: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/mewtwo_ready.wav] Failed to open file
+WARNING: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/clink.wav] Failed to open file
+INFO: STREAM: Initialized successfully (44100 Hz, 32 bit, Stereo)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/Game Over sound effect.mp3] Music file loaded successfully
+INFO:     > Sample rate:   44100 Hz
+INFO:     > Sample size:   32 bits
+INFO:     > Channels:      2 (Stereo)
+INFO:     > Total frames:  220032
+WARNING: Failed to load fade sound: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/swoosh.ogg
+WARNING: Failed to load sound: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/mewtwo_activate.wav
+WARNING: Failed to load sound: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/mewtwo_ready.wav
+WARNING: Failed to load sound: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Sounds/clink.wav
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/alien_3.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (41x40 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 19] Texture loaded successfully (41x40 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/alien_2.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (44x34 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 20] Texture loaded successfully (44x34 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/alien_1.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (38x34 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 21] Texture loaded successfully (38x34 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: SHADER: [ID 4] Fragment shader compiled successfully
+INFO: SHADER: [ID 5] Program shader loaded successfully
+INFO: TEXTURE: [ID 22] Texture loaded successfully (900x860 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 1] Depth renderbuffer loaded successfully (32 bits)
+INFO: FBO: [ID 1] Framebuffer object created successfully
+INFO: SHADER: [ID 4] Fragment shader compiled successfully
+INFO: SHADER: [ID 6] Program shader loaded successfully
+INFO: TEXTURE: [ID 15] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/green ninja.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 15] Texture loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 15] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/mewtwo.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (835x1024 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 15] Texture loaded successfully (835x1024 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/alien_2.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (44x34 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 23] Texture loaded successfully (44x34 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/alien_1.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (38x34 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 24] Texture loaded successfully (38x34 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): Graphics/roxo mini boss.gif (frames=48)
+INFO: New high score for character 3: 61700
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/cat-cats.gif] File loaded successfully
+INFO: TEXTURE: [ID 25] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 26] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 27] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 28] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 29] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 30] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 31] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 32] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 33] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 34] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 35] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 36] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 37] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 38] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 39] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 40] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 41] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 42] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 43] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 44] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 45] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 46] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 47] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 48] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 49] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 50] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 51] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 52] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 53] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 54] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 55] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 56] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 57] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 58] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 59] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 60] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 61] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 62] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 63] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 64] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 65] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 66] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 67] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 68] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 69] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 70] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 71] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 72] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 73] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 74] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 75] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 76] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 77] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 78] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 79] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 80] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 81] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 82] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 83] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 84] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 85] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 86] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 87] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 88] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 89] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 90] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 91] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 92] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 93] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 94] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 95] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 96] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 97] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 98] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 99] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 100] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 101] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 102] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 103] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 104] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 105] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 106] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 107] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 108] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 109] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 110] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 111] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 112] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 113] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 114] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 115] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 116] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 117] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 118] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 119] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 120] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 121] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 122] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 123] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 124] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 125] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 126] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 127] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 128] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 129] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 130] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 131] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 132] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 133] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 134] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 135] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 136] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 137] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 138] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 139] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 140] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 141] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 142] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 143] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 144] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 145] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 146] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 147] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 148] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 149] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 150] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 151] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 152] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 153] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 154] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 155] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 156] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 157] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 158] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 159] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 160] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 161] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 162] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 163] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 164] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 165] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 166] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 167] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 168] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 169] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 170] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 171] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 172] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 173] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 174] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 175] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 176] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 177] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 178] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 179] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 180] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 181] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 182] Texture loaded successfully (112x112 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 15] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/green ninja.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 15] Texture loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): Graphics/roxo mini boss.gif (frames=48)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/lugia boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (154x96 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/lugia boss.gif (120 frames) - VRAM saved: 6872 KB
+INFO: Boss sprite loaded (stream): Graphics/lugia boss.gif (frames=120)
+INFO: New high score for character 4: 113800
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 15] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/green ninja.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 15] Texture loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 15] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/pixilart-drawing.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (100x100 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 15] Texture loaded successfully (100x100 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): Graphics/roxo mini boss.gif (frames=48)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 15] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/green ninja.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 15] Texture loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): Graphics/roxo mini boss.gif (frames=48)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/lugia boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (154x96 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/lugia boss.gif (120 frames) - VRAM saved: 6872 KB
+INFO: Boss sprite loaded (stream): Graphics/lugia boss.gif (frames=120)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 15] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/green ninja.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 15] Texture loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): Graphics/roxo mini boss.gif (frames=48)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 15] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/green ninja.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 15] Texture loaded successfully (1136x938 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 15] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/pixilart-drawing.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (100x100 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 15] Texture loaded successfully (100x100 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): Graphics/roxo mini boss.gif (frames=48)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/lugia boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (154x96 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/lugia boss.gif (120 frames) - VRAM saved: 6872 KB
+INFO: Boss sprite loaded (stream): Graphics/lugia boss.gif (frames=120)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 15] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/pixilart-drawing.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (100x100 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 15] Texture loaded successfully (100x100 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): Graphics/roxo mini boss.gif (frames=48)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/lugia boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (154x96 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/lugia boss.gif (120 frames) - VRAM saved: 6872 KB
+INFO: Boss sprite loaded (stream): Graphics/lugia boss.gif (frames=120)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/giratina BOSS 4.gif] File loaded successfully
+INFO: TEXTURE: [ID 16] Texture loaded successfully (91x87 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded Graphics/giratina BOSS 4.gif (26 frames) - VRAM saved: 773 KB
+INFO: Boss sprite loaded (stream): Graphics/giratina BOSS 4.gif (frames=26)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: FILEIO: [C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif] File loaded successfully
+INFO: TEXTURE: [ID 17] Texture loaded successfully (498x424 | R8G8B8A8 | 1 mipmaps)
+INFO: GifStream: Loaded C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (48 frames) - VRAM saved: 38766 KB
+INFO: Boss sprite loaded (stream): C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif (frames=48)
+INFO: Using boss2 sprite: C:/Users/JOHN EFRAIM PASTRANA/Downloads/my game/my game/Graphics/roxo mini boss.gif
+INFO: SHADER: [ID 5] Unloaded shader program data from VRAM (GPU)
+INFO: SHADER: [ID 6] Unloaded shader program data from VRAM (GPU)
+INFO: TEXTURE: [ID 4] Unloaded texture data from VRAM (GPU)
+INFO: FBO: [ID 1] Unloaded framebuffer from VRAM (GPU)
+INFO: TEXTURE: [ID 2] Unloaded texture data from VRAM (GPU)
+INFO: SHADER: [ID 3] Default shader unloaded successfully
+INFO: TEXTURE: [ID 1] Default texture unloaded successfully
+INFO: Window closed successfully
+INFO: AUDIO: Device closed successfully
+INFO: TEXTURE: [ID 21] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 20] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 19] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 23] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 24] Unloaded texture data from VRAM (GPU)
+INFO: STREAM: Unloaded audio stream data from RAM
+INFO: STREAM: Unloaded audio stream data from RAM
+INFO: TEXTURE: [ID 18] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 17] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 16] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 15] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 6] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 7] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 8] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 9] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 10] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 11] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 12] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 13] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 14] Unloaded texture data from VRAM (GPU)
+INFO: TEXTURE: [ID 5] Unloaded texture data from VRAM (GPU)
+ExitCode=0 

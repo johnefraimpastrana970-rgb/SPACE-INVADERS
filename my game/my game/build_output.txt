@@ -1,0 +1,9 @@
+C:\Users\JOHN EFRAIM PASTRANA\Downloads\my game\my game\src\menu.cpp: In member function 'void Menu::Draw()':
+C:\Users\JOHN EFRAIM PASTRANA\Downloads\my game\my game\src\menu.cpp:305:33: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  305 |             if (isSelected && i < characterHighscores.size()) {
+      |                               ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\JOHN EFRAIM PASTRANA\Downloads\my game\my game\src\menu.cpp: In member function 'void Menu::UpdateCharacterHighscore(int, int)':
+C:\Users\JOHN EFRAIM PASTRANA\Downloads\my game\my game\src\menu.cpp:688:47: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+  688 |     if (characterIndex >= 0 && characterIndex < characterHighscores.size()) {
+      |                                ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ExitCode=0 

@@ -1,0 +1,40 @@
+GIF DISPOSAL METHOD FIX - MANUAL INSTRUCTIONS
+==============================================
+
+Your game has 8 GIF files that need to be fixed to prevent frame stacking.
+
+GIF FILES TO FIX:
+1. Graphics/areceus 2.gif
+2. Graphics/cat.gif
+3. Graphics/giratina BOSS 4.gif
+4. Graphics/kucing-scuba-scuba-cat.gif
+5. Graphics/lugia boss.gif
+6. Graphics/MAIN GAME BACKGROUND.gif
+7. Graphics/MAIN MENU.gif
+8. Graphics/roxo mini boss.gif
+
+HOW TO FIX USING EZGIF (Online - No Software Needed):
+=====================================================
+
+1. Go to: https://ezgif.com/optimize
+2. Click "Choose File" and select the first GIF from the list above
+3. Scroll down to find the "Disposal method" dropdown
+4. Change it from "Do not dispose" or "Unspecified" to "Restore to background"
+5. Click "Save optimized GIF"
+6. Download the fixed GIF and replace the original file
+7. Repeat for all 8 GIF files
+
+EXPECTED RESULT:
+After fixing, the animation frames will no longer stack or create a smudged effect.
+Each frame will be properly cleared before the next one is drawn.
+
+ALTERNATIVE: If you have GIMP installed locally:
+1. Open each GIF in GIMP
+2. Go to: File > Export As
+3. Export as GIF
+4. In the GIF export dialog, find "Disposal" settings
+5. Set frame disposal to "Replace" or "Restore to Background"
+6. Save
+
+This is required because your game's code is already set up to handle 
+this properly, but the GIF files themselves have the wrong settings.
